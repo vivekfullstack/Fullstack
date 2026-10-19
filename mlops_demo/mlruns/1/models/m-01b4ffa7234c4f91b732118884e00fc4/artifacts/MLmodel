@@ -1,0 +1,24 @@
+artifact_path: /Users/vivek.sharath/Documents/mlops_demo/mlruns/1/models/m-01b4ffa7234c4f91b732118884e00fc4/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.2
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types:
+    - sklearn.tree._tree.Tree
+mlflow_version: 3.17.1
+model_id: m-01b4ffa7234c4f91b732118884e00fc4
+model_size_bytes: 13467
+model_uuid: m-01b4ffa7234c4f91b732118884e00fc4
+prompts: null
+run_id: 0d92b728101b481190ea1df25b947a10
+utc_time_created: '2026-10-18 14:20:57.544301'
