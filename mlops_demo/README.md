@@ -123,11 +123,10 @@ python app/main.py
    * **Low Sample** (`samples/low.json`): Predicts a **`low`** quality wine.
 4. Click **Execute** to view the live inference output and confidence scores.
 
-## Step 6: Automated Data & Prediction Drift Monitoring
+### Step 6: Automated Data & Prediction Drift Monitoring
 
 To ensure the model performs reliably over time, we use **Evidently AI** to monitor incoming inference data for covariate shift (feature drift) and concept shift (prediction drift) against our baseline dataset.
 
-### 1. Run the Monitoring Pipeline
 Execute the report generator script to compare the reference (training) dataset against current production inputs:
 
 ```bash
